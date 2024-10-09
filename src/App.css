@@ -1,0 +1,19 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F6EE;
+}
+
+.Stories {
+    background-color: rgb(233, 233, 233);
+    width: 40vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.Post {
+    background-color: rgb(233, 233, 233);
+    height: 80vh;
+}

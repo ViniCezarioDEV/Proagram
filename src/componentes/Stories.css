@@ -1,0 +1,19 @@
+.Story {
+    border-radius: 50px;
+    display: inline-block;
+    margin: 3px 8px;
+}
+
+.Story img {
+    max-width: 70px;
+    max-height: 70px;
+    display: block;
+    border-radius: 40px;
+    padding: 3px;
+    border: 4px solid black;
+}
+
+.Story p {
+    display: block;
+    text-align: center;
+}

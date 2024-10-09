@@ -1,0 +1,35 @@
+.Post-cabecalho {
+    display: flex;
+    text-align: center;
+}
+.Post-cabecalho .Post-name p{
+    margin: 15px 5px;
+}
+.Post-cabecalho .Post-avatar img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50px;
+    padding: 3px;
+    border: 4px solid black;
+}
+
+.Post-cabecalho{
+    padding: 5px;
+}
+.Post-conteudo img{
+    margin: 5px;
+    max-width: 98%;
+    max-height: 98%;
+    width: 98%;
+}
+.Post-rodape {
+    display: flex;
+}
+.Post a {
+    color: black;
+    font-size: 40px;
+}
+.Post {
+    margin-top: 7px;
+    
+}
