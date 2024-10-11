@@ -1,4 +1,4 @@
-import logo from '../images/Instagram_icon.webp';
+import logo from '../images/proa.webp';
 import './ConteudoLateral.css';
 import ListItem from './Listitem.js';
 
@@ -13,7 +13,11 @@ export default function ConteudoLateral() {
   return (
     <div className='ConteudoLateral'>
 
-      <img src={logo} className='Logo' alt='Logo' />
+      <a href='/' className='Logotype'>
+        <img src={logo} className='Logo' alt='Logo' />
+        <span className='Instragam'>PROAGRAM</span>
+      </a>
+       
 
       <div>
         <ul className='NavagationButtons'>

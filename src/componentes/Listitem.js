@@ -3,12 +3,12 @@ export default function ListItem(props) {
     return (
         <li>
 
-            <a href='#'>
+            <a href='/'>
                 <span>
                     {props.icon}
                 </span>
             </a>
-            <a href='#'>
+            <a href='/'>
                 <span>
                     {props.text}
                 </span>

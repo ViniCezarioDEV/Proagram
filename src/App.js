@@ -1,6 +1,7 @@
 import './App.css'; //importando o css do estilo
 import ConteudoLateral from './componentes/ConteudoLateral';
 import ConteudoPrincipal from './componentes/ConteudoPrincipal';
+import ConteudoFinal from './componentes/ConteudoFinal';
 
 
 
@@ -11,12 +12,9 @@ export default function App() {
   // JSX (HTML do javascript)
   return (
     <div className="App">
-      
       <ConteudoLateral />
-
-      <ConteudoPrincipal/>
-
-
+      <ConteudoPrincipal />
+      <ConteudoFinal />
     </div>
   );
 }

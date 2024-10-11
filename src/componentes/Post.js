@@ -1,6 +1,6 @@
-import { IoHeartOutline } from "react-icons/io5"; //none
+import { IoHeartOutline } from "react-icons/io5"; //like
 import { IoChatbubbleSharp } from "react-icons/io5"; //message
-import './Postagens.css';
+import './Post.css';
 
 export default function Post(props) {
     return(
@@ -21,11 +21,11 @@ export default function Post(props) {
 
             <div className="Post-rodape">
                 <div className="Post-Like">
-                    <a href="#" type="submit" id="Like">{<IoHeartOutline />}</a>
+                    <a href="/" type="submit" id="Like">{<IoHeartOutline />}</a>
                     
                 </div>
                 <div className="Post-message">
-                    <a href="#">{<IoChatbubbleSharp />}</a>
+                    <a href="/">{<IoChatbubbleSharp />}</a>
                 </div>
             </div>
 
